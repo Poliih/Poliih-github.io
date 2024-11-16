@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next"; // Importando o hook para traduções
 import "./ProjectCard.css";
 
 const ProjectCard = ({ image, title, description, techStack, link }) => {
-  const [isExpanded, setIsExpanded] = useState(false); // Controle do estado de expansão
+  const [isExpanded, setIsExpanded] = useState(false);
+  const { t } = useTranslation(); // Hook de tradução
 
   const handleToggleExpand = () => {
     setIsExpanded((prev) => !prev);
@@ -21,13 +23,13 @@ const ProjectCard = ({ image, title, description, techStack, link }) => {
             className="read-more-btn"
             onClick={handleToggleExpand}
           >
-            {isExpanded ? "Read Less" : "Read More"}
+            {isExpanded ? t("read_less") : t("read_more")} {/* Tradução dinâmica */}
           </span>
         </div>
-        <p className="project-tech">Tech: {techStack}</p>
+        <p className="project-tech">{t("technology")}: {techStack}</p>
         {link && (
           <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
-            View Code
+            {t("view_code")}
           </a>
         )}
       </div>
