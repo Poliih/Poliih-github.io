@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
-import { useTranslation } from 'react-i18next'; // Importa o hook de tradução
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
-  const { t } = useTranslation(); // Usando o hook de tradução
+  const { t } = useTranslation(); 
 
   return (
     <footer>
@@ -19,7 +19,7 @@ function Footer() {
       <a href="mailto:polianarodriguesds@gmail.com">
         <FontAwesomeIcon icon={faEnvelope} size="2x" />
       </a>
-      <p>{t('github')} | {t('linkedin')} | {t('email')}</p> {/* Exibindo as traduções */}
+      <p>{t('github')} | {t('linkedin')} | {t('email')}</p> 
     </footer>
   );
 }

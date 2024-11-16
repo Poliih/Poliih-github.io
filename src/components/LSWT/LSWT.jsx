@@ -7,10 +7,10 @@ import br from './br.png';
 function LSWT() {
   const { i18n } = useTranslation();
 
-  // Quando o componente for montado, garantir que o idioma padrão seja pt
+
   useEffect(() => {
     if (!i18n.language) {
-      i18n.changeLanguage('pt'); // Muda para português se nenhum idioma estiver selecionado
+      i18n.changeLanguage('pt'); 
     }
   }, [i18n]);
 

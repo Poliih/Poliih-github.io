@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./Header.css";
 
 export default function Header() {
-  const { t } = useTranslation(); // Hook para obter as traduções
+  const { t } = useTranslation(); 
 
   return (
     <div className="header">

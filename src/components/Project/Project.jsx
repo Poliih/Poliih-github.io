@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next"; // Importando o hook para as traduções
+import { useTranslation } from "react-i18next"; 
 import ProjectCard from "../Shapes/ProjectCard/ProjectCard";
 import "./Project.css";
 import photo1 from "./photo/photo1.jpg";
@@ -9,15 +9,15 @@ import photo5 from "./photo/photo5.jpg";
 import photo6 from "./photo/photo6.jpg";
 
 const Project = () => {
-  const { t } = useTranslation(); // Usando o hook para obter as traduções
+  const { t } = useTranslation(); 
 
   return (
     <div className="projects-container">
       <ProjectCard
         image={photo4}
-        title={t("suntech")} // Tradução dinâmica
-        description={t("suntechDescription")} // Tradução dinâmica
-        techStack={t("suntechTech")} // Tradução dinâmica
+        title={t("suntech")} 
+        description={t("suntechDescription")} 
+        techStack={t("suntechTech")} 
         link="https://github.com/Poliih/SunTech"
       />
       <ProjectCard

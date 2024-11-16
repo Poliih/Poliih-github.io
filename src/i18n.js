@@ -34,9 +34,9 @@ i18n
           binaryTree: "Binary Tree",
           binaryTreeDescription: "A project that implements a binary tree with ordered insertion based on the digits of the RA number, performing a pre-order traversal to print the visited nodes.",
           binaryTreeTech: "C, Data Structures",
-          infoTitle: "<Software Engineer />",  // Adicionando título da seção
+          infoTitle: "<Software Engineer />", 
           infoText: "I am a technology enthusiast and self-taught developer. Throughout my journey, I quickly learned to adapt to various tools and technologies, always with the goal of solving complex problems efficiently. I enjoy working in teams, seeking innovative solutions to everyday challenges.",
-          hardSkills: "Hard Skills",  // Adicionando título de Hard Skills
+          hardSkills: "Hard Skills",  
         },
       },
       pt: {
@@ -68,14 +68,14 @@ i18n
           binaryTree: "Árvore Binária",
           binaryTreeDescription: "Um projeto que implementa uma árvore binária com inserção ordenada baseada nos dígitos do número RA, realizando uma travessia em pré-ordem para imprimir os nós visitados.",
           binaryTreeTech: "C, Estruturas de Dados",
-          infoTitle: "<Engenheira de Software />",  // Título traduzido
+          infoTitle: "<Engenheira de Software />", 
           infoText: "Sou uma apaixonada por tecnologia e desenvolvedora autodidata. Ao longo da minha jornada, aprendi rapidamente a me adaptar às mais diversas ferramentas e tecnologias, sempre com o objetivo de resolver problemas complexos de forma eficiente. Gosto de trabalhar em equipe, buscando soluções inovadoras para desafios do dia a dia.",
-          hardSkills: "Hard Skills",  // Traduzindo título de Hard Skills
+          hardSkills: "Hard Skills", 
         },
       },
     },
-    lng: 'pt', // Define o idioma padrão como português
-    fallbackLng: 'pt', // Caso não encontre o idioma, usa o português
+    lng: 'pt', 
+    fallbackLng: 'pt', 
   });
 
 export default i18n;
