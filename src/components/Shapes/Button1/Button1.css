@@ -1,0 +1,18 @@
+.button1{
+    width: 200px;
+    height: 60px;
+    border-radius: 33px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #4C007D;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.button1:hover{
+    background-color:rgba(220, 220, 255, 1);
+}

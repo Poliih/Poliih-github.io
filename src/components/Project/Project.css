@@ -1,0 +1,24 @@
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+    margin-block-end: 30px;
+  }
+.project-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-block-end: 15px;
+}
+  
+  @media (max-width: 768px) {
+    .projects-container {
+      padding: 10px; 
+    }
+  }
+  

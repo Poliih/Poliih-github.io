@@ -1,0 +1,67 @@
+.language-switcher {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.switch-container {
+    position: relative;
+}
+
+.switch-btn {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com 60% de opacidade */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.switch-circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(26, 11, 46, 1); /* Cor do círculo */
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.switch-pt .switch-circle {
+    left: 5px; /* Bandeira do Brasil (PT) à esquerda */
+}
+
+.switch-en .switch-circle {
+    right: 5px; /* Bandeira dos EUA (EN) à direita */
+}
+
+.flag {
+    width: 20px;  /* Ajusta o tamanho da bandeira */
+    height: 20px; /* Ajusta o tamanho da bandeira */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.flag.br {
+    left: 6px; /* Bandeira do Brasil à esquerda */
+}
+
+.flag.us {
+    right: 6px; /* Bandeira dos EUA à direita */
+}
+
+/* Efeito hover: cor do botão muda para a cor do círculo */
+.switch-btn:hover {
+    background-color: rgb(36, 7, 75); /* Cor do círculo */
+}
+
+.switch-btn:hover .switch-circle {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
