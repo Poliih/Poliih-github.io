@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n'; 
 
+// Criação do root utilizando o React 18
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Renderizando o App dentro do StrictMode para facilitar a depuração
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Se quiser começar a medir o desempenho do seu app, passe uma função para logar os resultados (por exemplo: reportWebVitals(console.log))
+// ou envie para um endpoint de análise. Mais informações: https://bit.ly/CRA-vitals
 reportWebVitals();

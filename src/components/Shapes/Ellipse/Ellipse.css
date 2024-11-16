@@ -1,0 +1,30 @@
+.ellipse-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.ellipse {
+    position: relative;
+    width: 15vw; 
+    height: 15vw; 
+    border-radius: 50%;
+    background: conic-gradient(
+      #a15ace 0deg 120deg,
+      #4C007D 120deg 240deg,
+      #B42C96 240deg 360deg
+    );
+    filter: blur(40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-imagem {
+    position: absolute;
+    width: 12%; 
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
