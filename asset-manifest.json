@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b61e1b3.css",
+    "main.js": "/static/js/main.87279f74.js",
+    "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
+    "static/media/photo4.jpg": "/static/media/photo4.e14c39b4eb2ad073ebd4.jpg",
+    "static/media/photo2.jpg": "/static/media/photo2.3a6559f2d9deaf65654a.jpg",
+    "static/media/photo5.jpg": "/static/media/photo5.7af40dae68ebfd136757.jpg",
+    "static/media/photo1.jpg": "/static/media/photo1.40b8ee7b31c33d3eb6ea.jpg",
+    "static/media/photo6.jpg": "/static/media/photo6.dd8add65ccff91e635a0.jpg",
+    "static/media/Poliih.png": "/static/media/Poliih.755e3052ccc6a6315e21.png",
+    "static/media/usa.png": "/static/media/usa.7e17dcdb92416007fab4.png",
+    "static/media/br.png": "/static/media/br.a679b9731277c2e84ae6.png",
+    "index.html": "/index.html",
+    "main.6b61e1b3.css.map": "/static/css/main.6b61e1b3.css.map",
+    "main.87279f74.js.map": "/static/js/main.87279f74.js.map",
+    "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b61e1b3.css",
+    "static/js/main.87279f74.js"
+  ]
+}
