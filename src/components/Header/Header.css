@@ -1,26 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
-/* Header */
+
 .header {
   position: fixed;
-  top: 0; 
+  top: 0;
   width: 100%;
   height: 80px;
-  padding: 20px 180px; 
+  padding: 20px 180px;
   background: linear-gradient(90deg, rgba(26, 11, 46, 1) 0%, rgba(76, 0, 125, 1) 100%);
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   box-sizing: border-box;
   align-items: center;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .group-1 {
   display: flex;
-  gap: 80px; 
+  gap: 80px;
   align-items: center;
 }
 
-/* Estilos dos itens do menu */
 .about1,
 .projects,
 .contact {
@@ -35,6 +34,78 @@
 .about1:hover,
 .projects:hover,
 .contact:hover {
-  color: rgba(200, 200, 255, 1); 
+  color: rgba(200, 200, 255, 1);
 }
 
+/* Menu Hambúrguer */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger div {
+  background: #ffffff;
+  height: 3px;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Menu mobile */
+.mobile-menu {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background: rgba(26, 11, 46, 0.9);
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-menu p {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mobile-menu p:hover {
+  color: rgba(200, 200, 255, 1);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 20px; 
+    justify-content: space-between;
+  }
+
+  .group-1 {
+    display: none; 
+  }
+
+  .hamburger {
+    display: flex; 
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    width: 25px;
+    height: 15px;
+  }
+
+  .mobile-menu p {
+    font-size: 18px; 
+  }
+}

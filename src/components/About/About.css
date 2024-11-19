@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
-.about2{
+
+.about2 {
     justify-content: center;
     align-items: center;
     max-width: 100vh;
     padding: 20px;
 }
 
-.about-text{
+.about-text {
     font-family: 'Preahvihear', sans-serif;
     font-size: 3rem;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
@@ -17,12 +18,37 @@
     color: #9833D9;
 }
 
-
-.about-buttons{
+.about-buttons {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 20px;
     max-width: 600px;
+}
 
+@media (max-width: 768px) {
+    .about2 {
+        padding: 10px;
+    }
+
+    .about-text {
+        font-size: 2rem; 
+        text-align: center; 
+    }
+
+    .about-buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text {
+        font-size: 1.5rem; 
+    }
+
+    .about-buttons {
+        gap: 10px; 
+    }
 }

@@ -15,25 +15,28 @@ function App() {
     <div className="App">
       <Header />
       <LSWT /> 
-      <main className="about">
+      
+      <main id="about" className="about"> 
         <Ellipse />
         <About />
       </main>
+
       <section className="info-section">
         <h2 className="info-title">{t('infoTitle')} </h2> 
-        <p className="info-text">
-          {t('infoText')}
-        </p>
+        <p className="info-text">{t('infoText')}</p>
       </section>
-      <section className='skills-section'>
+      <div className="line"></div>
+      
+      <section className='skills-section' id="skills">
         <h2 className="info-project">{t('hardSkills')}</h2> 
         <Skills />
       </section>
       <div className="line"></div>
+      
       <h2 className="info-project">{t('projects')}</h2> 
-      <div className="project-section">
+      <div id="projects" className="project-section">
         <Project />
-        <div className="line"></div>
+        <div id="contact" className="line"></div>
         <Footer />
       </div>
     </div>

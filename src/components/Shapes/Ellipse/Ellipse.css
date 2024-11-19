@@ -1,3 +1,4 @@
+
 .ellipse-container {
     display: flex;
     justify-content: center;
@@ -7,13 +8,13 @@
 
 .ellipse {
     position: relative;
-    width: 15vw; 
+    width: 15vw;  
     height: 15vw; 
     border-radius: 50%;
     background: conic-gradient(
-      #a15ace 0deg 120deg,
-      #4C007D 120deg 240deg,
-      #B42C96 240deg 360deg
+        #a15ace 0deg 120deg,
+        #4C007D 120deg 240deg,
+        #B42C96 240deg 360deg
     );
     filter: blur(40px);
     display: flex;
@@ -23,8 +24,39 @@
 
 .ellipse-imagem {
     position: absolute;
-    width: 12%; 
+    width: 15%;
     height: auto;
     object-fit: contain;
     object-position: center;
+}
+
+@media (max-width: 768px) {
+    .ellipse-container {
+        height: auto;  
+        padding: 15px 0; 
+    }
+    .ellipse {
+        width: 30vw;  
+        height: 30vw;
+    }
+
+    .ellipse-imagem {
+        width: 30%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .ellipse-container {
+        height: auto;  
+        padding: 25px 0; 
+    }
+
+    .ellipse {
+        width: 40vw;  
+        height: 30vw;
+    }
+
+    .ellipse-imagem {
+        width: 30%; 
+    }
 }

@@ -1,13 +1,13 @@
 .project-card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     position: relative;
     width: calc(33.33% - 20px);
-    max-width: 300px; 
-    min-width: 240px;
-    height: 380px; /* Altura fixa para os cards */
+    max-width: 250px; 
+    min-width: 190px;
+    height: 380px; 
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -42,14 +42,14 @@
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    height: 60%; /* A altura do fundo preto será fixa */
-    transition: height 0.3s ease-in-out; /* Adiciona animação de altura */
+    height: 60%; 
+    transition: height 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
   }
 
   .project-overlay.expanded {
-    height: 100%; /* A altura do fundo preto vai para 100% quando expandido */
+    height: 100%; 
   }
   
   .project-title {
@@ -60,7 +60,7 @@
   .project-description-container {
     position: relative;
     width: 100%;
-    flex-grow: 1; /* Isso vai fazer o conteúdo expandir até o final do card */
+    flex-grow: 1; 
     display: flex;
     flex-direction: column;
   }
@@ -70,7 +70,7 @@
     margin: 0;
     line-height: 1.5;
     overflow: hidden;
-    max-height: 2.5em; /* Limita a altura da descrição padrão */
+    max-height: 2.5em; 
     transition: max-height 0.3s ease-in-out; 
   }
   
