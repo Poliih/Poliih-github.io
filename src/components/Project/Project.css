@@ -1,11 +1,11 @@
 .projects-container {
   display: flex;
-  gap: 30px;
+  gap: 15px;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 15px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
   margin-block-end: 30px;
 }
 

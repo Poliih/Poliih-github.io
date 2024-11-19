@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 70px;
   padding: 20px 180px;
   background: linear-gradient(90deg, rgba(26, 11, 46, 1) 0%, rgba(76, 0, 125, 1) 100%);
   display: flex;
@@ -13,6 +13,15 @@
   align-items: center;
   z-index: 1000;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6b6b;  
+}
+
 
 .group-1 {
   display: flex;
