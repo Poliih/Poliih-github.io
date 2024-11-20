@@ -1,33 +1,35 @@
-
 .ellipse-container {
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
+    position: relative;
 }
 
 .ellipse {
-    position: relative;
-    width: 15vw;  
-    height: 15vw; 
+    position: absolute; 
+    width: 25vw;  
+    height: 25vw; 
     border-radius: 50%;
     background: conic-gradient(
         #a15ace 0deg 120deg,
         #4C007D 120deg 240deg,
         #B42C96 240deg 360deg
     );
-    filter: blur(40px);
+    filter: blur(40px); 
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1; 
 }
 
 .ellipse-imagem {
-    position: absolute;
-    width: 15%;
-    height: auto;
-    object-fit: contain;
-    object-position: center;
+    position: relative; 
+    width: 70%; 
+    height: auto; 
+    object-fit: cover;
+    object-position: center; 
+    z-index: 2; 
 }
 
 @media (max-width: 768px) {
@@ -35,13 +37,15 @@
         height: auto;  
         padding: 15px 0; 
     }
+
     .ellipse {
-        width: 30vw;  
-        height: 30vw;
+        width: 40vw;  
+        height: 40vw;
     }
 
     .ellipse-imagem {
-        width: 30%; 
+        width: 50%; 
+        height: auto;
     }
 }
 
@@ -52,11 +56,12 @@
     }
 
     .ellipse {
-        width: 40vw;  
-        height: 30vw;
+        width: 55vw;  
+        height: 55vw;
     }
 
     .ellipse-imagem {
-        width: 30%; 
+        width: 50%; 
+        height: auto;
     }
 }

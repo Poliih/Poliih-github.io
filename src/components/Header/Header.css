@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .header {
   position: fixed;
@@ -107,6 +112,7 @@ a:hover {
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .hamburger {
