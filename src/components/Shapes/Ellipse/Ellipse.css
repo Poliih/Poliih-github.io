@@ -8,8 +8,8 @@
 
 .ellipse {
     position: absolute; 
-    width: 25vw;  
-    height: 25vw; 
+    width: 18vw;  
+    height: 18vw; 
     border-radius: 50%;
     background: conic-gradient(
         #a15ace 0deg 120deg,
