@@ -1,6 +1,6 @@
 # Portfólio Poliih
 
-Este é o meu portfólio pessoal desenvolvido com React. Onde você vai encontrar um pouco sobre quem sou eu, meus projetos, as habilidades que domino e, claro, como entrar em contato comigo. O design é moderno e responsivo, perfeito para qualquer dispositivo.
+Este é o meu portfólio pessoal, desenvolvido com React, onde você vai encontrar um pouco sobre quem sou, meus projetos, as habilidades que domino e, claro, como entrar em contato comigo. O design é moderno e responsivo, perfeito para qualquer dispositivo.
 
 
 ## 🚀 Tecnologias Utilizadas
