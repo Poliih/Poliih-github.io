@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +11,6 @@ html {
 html, body {
   overflow-x: hidden;
 }
-
 
 body, html, #root {
   height: 100%;
@@ -41,7 +41,6 @@ main.about {
   margin-top: 10px;
   text-align: justify; 
 }
-
 
 .project-section {
   display: flex;
@@ -113,6 +112,27 @@ button:hover {
   color: #333;
 }
 
+@media (min-width: 1920px) {
+  .info-section {
+    width: 50%; 
+  }
+
+  .info-section p {
+    font-size: 1.1rem; 
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .info-section {
+    width: 50%; 
+  }
+
+  .info-section p {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 768px) {
   main.about {
     flex-direction: column;
@@ -122,8 +142,9 @@ button:hover {
   }
 
   .info-section {
-    padding: 15px;
-    text-align: justify; 
+    width: 90%; 
+    padding: 10px; 
+    text-align: justify;
   }
 
   .info-project,
@@ -152,7 +173,6 @@ button:hover {
 
   .info-section p {
     font-size: 0.9rem;
-    text-align: justify;
   }
 
   .contact-links img {
