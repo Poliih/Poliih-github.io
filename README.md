@@ -13,8 +13,7 @@ Este é o meu portfólio pessoal desenvolvido com React. Ele contém uma seção
 
 - **public/**: Arquivos estáticos do projeto (como o `index.html`).
 - **src/**: Contém todos os componentes React e a lógica do front-end.
-  - **components/**: Componentes reutilizáveis, como Header, Footer, etc.
-  - **pages/**: As páginas do portfólio, como About, Projects, Contact.
+  - **components/**: Componentes reutilizáveis, como Header, Footer, About, Projects etc.
 - **package.json**: Contém as dependências e scripts do projeto.
 
 ## 📍 Como Rodar o Projeto Localmente
@@ -47,7 +46,7 @@ Isso vai abrir o seu portfólio no navegador, geralmente em `http://localhost:30
 
 ## 🌐 Acessar Online
 
-O portfólio está hospedado em **https://poliihrodrigues.com.br**. Você pode acessá-lo clicando no link abaixo:
+O portfólio está hospedado em:
 
 [https://poliihrodrigues.com.br](https://poliihrodrigues.com.br)
 
