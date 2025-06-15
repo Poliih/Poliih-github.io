@@ -17,7 +17,7 @@ function About() {
         <a href="https://www.linkedin.com/in/poliih-rodrigues" target="_blank" rel="noopener noreferrer">
             <Button1 text={t("linkedin")} />
         </a>
-        <a href="/About/CV+p.pdf" download>
+        <a href="/About/CurriculoPoliana-2025.pdf" download>
             <Button2 text={t("download_cv")} />
         </a>
       </div>
